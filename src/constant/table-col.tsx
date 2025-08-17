@@ -1,3 +1,4 @@
+import { Badge, Tag } from "antd";
 import { toShmsi } from "../utils/to-shamsi";
 
 export const tablecolumns = [
@@ -15,6 +16,7 @@ export const tablecolumns = [
     title: 'شاخص',
     dataIndex: 'price',
     key: 'price',
+    render: (item: string) => <Tag color="green-inverse">{item}</Tag>
   },
   {
     title: 'تاریخ ایجاد',
