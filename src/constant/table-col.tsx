@@ -1,4 +1,4 @@
-import { Badge, Tag } from "antd";
+import { Tag } from "antd";
 import { toShmsi } from "../utils/to-shamsi";
 
 export const tablecolumns = [
