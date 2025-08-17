@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: "IRANSansX-Medium";
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/IRANSansX-Regular.woff2") format("woff");
+}
+
+* {
+  font-family: "IRANSansX-Medium" !important; 
+}
+
