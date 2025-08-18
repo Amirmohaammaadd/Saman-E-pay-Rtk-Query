@@ -25,7 +25,7 @@ export const apiSlice = createApi({
   tagTypes: ["Products"],
   endpoints: (builder) => ({
     getProducts: builder.query<Product[], number>({
-      query: (offset = 0) => `products?offset=${offset}&limit=10`,
+      query: (offset) => `products?offset=${offset}&limit=10`,
       keepUnusedDataFor: 300,
       providesTags: (result, _, offset) =>
         result
